@@ -1,0 +1,48 @@
+body {
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	background: #000100f9;
+	color: #fff;
+}
+
+.navBar {
+	width: 100%;
+	border-bottom: 3px solid crimson;
+	background: #000000d2;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	position: fixed;
+	top: 0; left: 0;
+}
+
+.navBar .logo {
+	color: crimson;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.userImg img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 3px solid crimson;
+}
+
+.navBar .links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	gap: 50px;
+	padding: 10px 0;
+}
+
+.navBar .links li a {
+	font-style: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<style>
+		body {
+			margin: 0; padding: 0;
+			padding-top: 100px;
+			box-sizing: border-box;
+			background: #000100f9;
+			color: #fff;
+		}
+
+		.navBar {
+			width: 100%;
+			border-bottom: 3px solid crimson;
+			background: #000000d2;
+
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+
+			position: fixed;
+			top: 0; left: 0;
+		}
+
+		.navBar .logo {
+			color: crimson;
+			font-weight: bold;
+			font-size: 50px;
+		}
+
+		.navBar .links {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			list-style: none;
+			gap: 50px;
+			padding: 10px 0;
+		}
+
+		.navBar .links li a {
+			font-style: none;
+			text-decoration: none;
+			color: #fff;
+			font-size: 20px;
+		}
+
+		.container {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+
+		.container .product {
+			border: 2px solid crimson;
+			width: 300px;
+			margin: 20px;
+		}
+
+		.container .product img {
+			width: 100%;
+			height: 200px;
+		}
+
+		.container .product p {
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="navBar">
+		<div class="logo">ITI</div>
+		<ul class="links">
+			<li><a href="">Dashboard</a></li>
+			<li><a href="">WishList</a></li>
+			<li><a href="">Cart</a></li>
+			<li><a href="profile">Profile</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/380954/pexels-photo-380954.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/380954/pexels-photo-380954.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/380954/pexels-photo-380954.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+		<div class="product">
+			<img src="https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=400" alt="procuct name">
+			<p class="name">Name: {{ ProdductName }}</p>
+			<p class="availability">availability: {{ procuctAvailability }}</p>
+		</div>
+
+	</div>
+</body>
+</html>

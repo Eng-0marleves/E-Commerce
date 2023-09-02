@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+
+	<style>
+		body {
+			width: 100%;
+			height: 100vh;
+			color: white;
+			background: #000100;
+			overflow: hidden;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		form {
+			width: 500px;
+			text-align: left;
+		}
+
+		.form-control {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin: 30px 0;
+		}
+
+		.form-control:last-child {
+			display: flex;
+			justify-content: center;
+		}
+
+		.form-control label {
+			width: 30%;
+			text-align: left;
+			margin-right: 10px;
+		}
+
+		.form-control input {
+			width: 60%;
+		}
+
+		.form-control input[type="submit"] {
+			width: 30%;
+			color: #fff;
+			background: crimson;
+			border: none;
+			padding: 10px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		a {
+			color: #fff;
+			text-decoration: underline;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sign Up</h1>
+	<form method="post" action="{% url 'api-signup' %}" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div class="form-control">
+			<label for="first_name">First Name:</label>
+			<input type="text" id="first_name" name="first_name" required>
+		</div>
+
+		<div class="form-control">
+			<label for="last_name">Last Name:</label>
+			<input type="text" id="last_name" name="last_name" required>
+		</div>
+
+		<div class="form-control">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		</div>
+
+		<div class="form-control">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+		</div>
+
+		<div class="form-control">
+			<label for="confirm_password">Confirm Password:</label>
+			<input type="password" id="confirm_password" name="confirm_password" required>
+		</div>
+
+		<div class="form-control">
+			<label for="img">Profile Image:</label>
+			<input type="file" id="img" name="img">
+		</div>
+
+		<div class="form-control">
+			<input type="submit" value="Sign Up">
+		</div>
+	</form>
+
+	<a href="#">Already have an account?</a>
+</body>
+</html>

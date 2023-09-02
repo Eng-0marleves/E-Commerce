@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="q2xyOLnme8clIptQdHSw" name="Page-1">
+        <mxGraphModel dx="1005" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="90" width="880" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Top bar&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;- should contain cart for the user to be able to view his/her cart whenever he/she likes&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;- should contain wish-list in order for user to know the products he/she liked but never&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;added to cart&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;- user should find his/her image or first name on click go to profile info&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="60" width="880" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="440" width="880" height="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="440" width="880" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="570" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="570" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="570" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="860" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="860" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="860" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="452.5" width="55" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;LOGO&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="455" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=26;" vertex="1" parent="1">
+                    <mxGeometry x="336" y="465" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="WishList" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=26;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="465" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Cart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=26;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="465" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Profile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=26;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="465" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

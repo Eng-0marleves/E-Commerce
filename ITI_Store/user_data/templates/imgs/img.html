@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Image</title>
+</head>
+<body>
+	<h1>User {{user.id}} Image</h1>
+	{% if user.img %}
+		<img src="{{ user.img.url }}" alt="{{ user.first_name }} {{ user.last_name }}" width="200">
+	{% else %}
+		<p>No image available for this user.</p>
+	{% endif %}
+</body>
+</html>
